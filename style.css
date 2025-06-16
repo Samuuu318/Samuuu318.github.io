@@ -1,0 +1,65 @@
+body{
+    color : #072a50;
+    background-color: #b9eaff;
+}
+
+header{
+    background-color: #00084a;
+    text-align: center;
+    padding: 25px 0;
+    color : white;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: cursive;
+}
+
+h2{
+    font-family: cursive;
+}
+
+footer{
+    background-color: #00084a;
+    text-align: center;
+    padding: 25px 0;
+    color : white;
+}
+
+section{
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#a-propos{
+    display : flex;
+    align-items: center;
+    gap : 30px;
+}
+
+#a-propos img{
+    border-radius: 50%;
+}
+
+.cartes-projets-conteneur{
+    display: flex;
+    justify-content: space-between;
+    gap : 20px;
+    flex-direction: row;
+}
+
+
+.carte{
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 20px;
+    border-radius: 6px;
+    width: 32%;
+}
+
+.carte h3{
+    margin-top: 0;
+}
