@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+body{
+    color : #14248A;
+    background-color: #CCFFE8;
+    font-family:'Limelight', cursive;
+}
+
+header{
+    background-color: #28262C;
+    text-align: center;
+    padding: 25px 0;
+    color : white;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: #28262C;
+    text-align: center;
+    padding: 25px 0;
+    color : white;
+    border-radius: 50px;
+}
+
+section{
+    background-color: #98B9F2;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#a-propos{
+    display : flex;
+    align-items: center;
+    gap : 30px;
+}
+
+#a-propos img{
+    border-radius: 50%;
+}
+
+.cartes-projets-conteneur{
+    display: flex;
+    justify-content: space-between;
+    gap : 20px;
+}
+
+
+.carte{
+    background-color: #6F9CEB;
+    border: 1px solid #6F9CEB;
+    padding: 20px;
+    border-radius: 35px;
+    width: 32%;
+}
+
+.carte h3{
+    margin-top: 0;
+}
